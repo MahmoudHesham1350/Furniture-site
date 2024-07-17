@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Furn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="home">
+
+        <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                Furn House
+            </div>
+
+                <ul class="navbar-nav navigation">
+                    <a class="nav-link">Home</a>
+                    <a class="nav-link">Shop</a>
+                    <a class="nav-link">Blog</a>
+                    <a class="nav-link">Vendors</a>
+                    <a class="nav-link">Page</a>
+                </ul>
+
+                <form class="d-flex">
+                    <div class="input-group search">
+                      <input type="search" class="form-control" style="flex: 2;" placeholder="Search" aria-label="Search">
+                      <select class="form-select" style="flex: 1; font-size: 13px; font-weight: 600;" aria-label="Search Category">
+                        <option selected>All Categories</option>
+                        <option value="1">Category 1</option>
+                        <option value="2">Category 2</option>
+                        <option value="3">Category 3</option>
+                      </select>
+                      <button class="btn btn-outline-dark" type="submit" style="flex-shrink: 0; ">
+                        <img src="assets/search.svg"> <!-- Assuming you use Bootstrap Icons for the search icon -->
+                      </button>
+                    </div>
+                    <button class="btn btn-outline-dark drop-search" type="submit" style="flex-shrink: 0; ">
+                        <img src="assets/search.svg"> <!-- Assuming you use Bootstrap Icons for the search icon -->
+                      </button>
+                </form>
+
+            
+
+                <ul class="navbar-nav icons">
+                    <li class="nav-item" style="display: flex; flex-direction: row; flex-wrap: nowrap;">
+                      <a class="nav-link" href="#"><img src="assets/box-arrow-in-right.svg"> login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="assets/heart.svg"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="assets/shuffle.svg"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="assets/bag.svg"></a>
+                    </li>
+                </ul>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+        </div>
+        </nav>
+
+        <div class="container-fluid home-body">
+        <div class="row">
+          <div class="col-4 home-text">
+            <h6>New arrivals</h6>
+            <h1>New Collections</h1>
+              <button class="btn btn-primary button-orange" type="button">Shop now</button>
+          </div>
+
+          <div class="col-8">
+            <img src="assets/home.png" alt="">
+          </div>
+        </div>
+        </div>
+
+        
+    </div>
+
+    <div class="shop">
+      <div class="container-fluid">
+        <div class="row shop-row top-shop">
+          <div class="col-xl-3 col-md-6 g-5">
+            <div class="categ">
+            <h2>Shop by categories</h2>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 g-5">
+            <div class="card">
+              <img src="assets/chair.png" alt="">
+              <h5>Chairs</h5>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 g-5">
+            <div class="card">
+              <img src="assets/sofa.png" alt="">
+              <h5>Sofas</h5>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 g-5">
+            <div class="card">
+              <img src="assets/table.png" alt="">
+              <h5>Tables</h5>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row shop-row">
+
+          <div class="col-xl-6 col-md-12">
+            <div class="b-card card text-bg-dark">
+              <img src="assets/living.jpg" class="card-img" alt="">
+              <div class="card-img-overlay" style="align-content: center;">
+                <h2 class="card-title">Living Room</h2>
+                <p class="card-text">30% OFF ALL ORDER</p>
+                <button class="btn btn-primary button-orange">Shop now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-md-12">
+            <div class="b-card card text-bg-dark">
+              <img src="assets/dining.jpeg" class="card-img" alt="">
+              <div class="card-img-overlay" style="align-content: center;">
+                <h2 class="card-title">Dining Room</h2>
+                <p class="card-text">30% OFF ALL ORDER</p>
+                <button class="btn btn-primary button-orange">Shop now</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="products">
+      <ul class="nav products-links">
+        <li class="nav-brand">
+          <h2>Hot Products</h2>
+        </li>
+  
+          <ul class="nav navigation">
+            <li>
+              Latest Products
+            </li>
+            <li>
+              Top Rating
+            </li>
+            <li>
+              Best Sellers
+            </li>
+          </ul>
+  
+  
+        <li>
+          <button type="button" class="btn btn-primary button-orange">Primary</button>
+        </li>
+  
+          </ul>
+        </li>
+      </ul>
+
+      <div class="container-fluid">
+        <div class="row row-cols-xl-4 row-cols-2 product-row">
+          <div class="col g-5">
+            <div class="card">
+              <span class="badge rounded-pill">New</span>
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <span class="badge rounded-pill">Hot</span>
+                <span class="badge discount">-30%</span>
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <span class="badge rounded-pill">New</span>
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <span class="badge rounded-pill">Hot</span>
+              <span class="badge discount">-30%</span>
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <span class="badge discount">-30%</span>
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col g-5">
+            <div class="card">
+              <img src="assets/sofa.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <div class="rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="far fa-star text-warning"></i>
+                </div>
+                <h6>Product Name</h6>
+                <h3>$200</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
